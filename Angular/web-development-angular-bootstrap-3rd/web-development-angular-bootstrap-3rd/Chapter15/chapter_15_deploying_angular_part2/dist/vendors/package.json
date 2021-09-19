@@ -1,0 +1,21 @@
+{
+  "name": "vendors",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  },
+  "main": "bundles/vendors.umd.js",
+  "module": "fesm5/vendors.js",
+  "es2015": "fesm2015/vendors.js",
+  "esm5": "esm5/vendors.js",
+  "esm2015": "esm2015/vendors.js",
+  "fesm5": "fesm5/vendors.js",
+  "fesm2015": "fesm2015/vendors.js",
+  "typings": "vendors.d.ts",
+  "metadata": "vendors.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
